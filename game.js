@@ -162,13 +162,13 @@ function makeBees() {
     i++;
     }
    }
-   function addbees() {
-    let num = 1 + nbBees; //adds one to the number of bees
-    var bee = new Bee(num); //creates a new bee
-    bee.display(); //displays the new bee created
-    bees.push(bee); //adds the new bee that is created to the exisitng array of bees
-    i++; //increments the bees
-    document.getElementById("nbBees").value = i;
+   function addbee() {
+     num = 1 + numbBees; //adds one to the number of bees
+    var bee = new Bee(num); 
+    bee.display(); 
+    bees.push(bee); 
+    i++; 
+    document.getElementById("numbBees").value = i;
   }
    function moveBees() {
     //get speed input field value
